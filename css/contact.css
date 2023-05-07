@@ -1,0 +1,104 @@
+.nav {
+    background-color: #725db1;
+}
+
+.section-1a {
+    padding: 70px 50px 0px 50px;
+    background-color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #1e2858;
+    gap: 5em;
+}
+
+.section-1a-header {
+    font-weight: 700;
+    font-size: clamp(2rem, 2vw + 1rem, 2.5rem);
+    line-height: 1.45;
+}
+
+.section-1a-text {
+    width: 45%;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: flex-start;
+    font-weight: 500;
+    font-size: 15px;
+    color: #1e2858;
+    padding-left: 120px;
+}
+
+.section-1a a {
+    color: #1e2858;
+}
+
+.section-1a a:hover {
+    color: #725db1;
+}
+
+.section-1a .logo {
+    background-image: url(../img/braythan-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 500px;
+    height: 250px;
+}
+
+/* media query for tablet */
+@media screen and (min-width:768px)and (max-width:1025px) {
+    .section-1a-text {
+        width: 55%;
+        padding-left: 0px;
+    }
+
+    .section-1a-header {
+        text-align: inherit;
+    }
+
+    .section-1a .logo {
+        width: 470px;
+    }
+}
+
+/* media query for mobile */
+@media screen and (max-width:767px) {
+    .section-1a {
+        flex-direction: column-reverse;
+        gap: 1.1rem;
+        padding-bottom: 25px;
+    }
+
+    .section-1a-text {
+        gap: 1.5rem;
+        align-items: center;
+        font-size: 18px;
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .address {
+        width: 100%;
+        text-align: center;
+    }
+
+    .section-1a-header {
+        line-height: 2;
+    }
+
+    .section-1a .logo {
+        display: none;
+    }
+
+    .contact {
+        text-align: center;
+    }
+
+    .holder {
+        text-align: center;
+    }
+
+}
