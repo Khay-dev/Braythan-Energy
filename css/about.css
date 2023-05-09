@@ -135,7 +135,6 @@
     font-size: clamp(0.8rem, 2vw + 1rem, 1.7rem);
     line-height: 1.5;
     letter-spacing: 0.5px;
-    padding: 10px;
     color: #1e2858;
 }
 
@@ -211,6 +210,15 @@
     width: 90%;
 }
 
+@media screen and (min-width:768px)and (max-width:1025px) {
+    .slide-1 h2 {
+        left: 40%;
+    }
+
+    .section-4-b {
+        padding-left: 30px;
+    }
+}
 
 @media screen and (max-width:767px) {
 
