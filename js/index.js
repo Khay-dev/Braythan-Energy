@@ -39,7 +39,7 @@ spann.addEventListener('click', () => {
 function changeBg() {
     let myNav = document.getElementById("nav");
     let scrollValue = window.scrollY
-    if (scrollValue < 200) {
+    if (scrollValue < 100) {
         myNav.classList.remove('scroll')
     } else {
         myNav.classList.add('scroll')

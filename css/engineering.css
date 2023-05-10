@@ -1,5 +1,5 @@
 .nav {
-    background-color: #725db1;
+    background-color: #f3f3f3;
 }
 
 
@@ -13,7 +13,7 @@
     font-weight: 500;
     font-size: clamp(1.2rem, 2vw + 1rem, 2rem);
     line-height: 1;
-    color: #725db1;
+    color: #1e2858;
     margin-bottom: 10px;
 }
 

@@ -1,5 +1,5 @@
 .nav {
-    background-color: #725db1;
+    background-color: #f3f3f3;
 }
 
 .section-1a {
@@ -9,7 +9,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color: #1e2858;
     gap: 5em;
 }
 
@@ -17,6 +16,7 @@
     font-weight: 700;
     font-size: clamp(2rem, 2vw + 1rem, 2.5rem);
     line-height: 1.45;
+    color: #1e2858;
 }
 
 .section-1a-text {
@@ -27,16 +27,16 @@
     align-items: center;
     font-weight: 500;
     font-size: 15px;
-    color: #1e2858;
+    color: #313131;
     padding-left: 120px;
 }
 
 .section-1a a {
-    color: #1e2858;
+    color: #313131;
 }
 
 .section-1a a:hover {
-    color: #725db1;
+    color: #1e2858;
 }
 
 .section-1a .logo {
